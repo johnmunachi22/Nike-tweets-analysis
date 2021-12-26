@@ -1,0 +1,16 @@
+Imported 4 different datasets 
+combined them to form a larger dataset
+removed the null values in the user loaction column
+removed values that were not user location in the user location column
+created a new column called 'is_en' that contains a boolean value, which shows if the tweet is in english or not
+removed retweets
+created a new column called 'tweet_len' that contains a numerical value, which shows the length of each tweet
+plotted the distribution of tweets based on there location.
+plotted the correlation of the dataset, which showed that there is a higher correlation between like count and retweet count
+plotted the distribution of tweets based on there user names.
+created a new column called 'raw_tweet' tha contained the original tweet before cleaning.
+created a function that cleaned, tokenized the tweets of each user.
+plotted the most common words used in the whole tweet.
+created two new column called 'postive', and 'negative' that contained the sentiment score of each tweet,  Using a pretrained sentiment model 'vadar'
+plotted the sentiment score of each day.
+separated the tweets into postive and negative.
